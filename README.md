@@ -9,7 +9,8 @@ FATFilesystem();
 Constructs the struct with an array of fixed size and initializes the file allocation table.
 
 Status createFile(const std::string& filename unsigned int filesize,std::byte value)
-Creates a file ‘filename’ with size ‘filesize’. The file is filled with the value ‘value’. Prints on success:Success: File ‘filename’ with size ‘filesize’ and value‘value’ has been created
+Creates a file ‘filename’ with size ‘filesize’. The file is filled with the value ‘value’. 
+Prints on success:Success: File ‘filename’ with size ‘filesize’ and value‘value’ has been created
 Prints ‘Error: string has non-alphabetic characters’ when there is a non-alphabetic character present.
 Prints ‘Error: Array is full’ and returns Status::Error when the array is full.
 Prints ‘Error: Max files reached’ and returns
